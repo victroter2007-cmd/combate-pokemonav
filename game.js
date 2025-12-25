@@ -2,16 +2,16 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 const bg = new Image();
-bg.src = "assets/background.png";
+bg.src = "background.png";
 
 const delibird = new Image();
-delibird.src = "assets/delibird.png";
+delibird.src = "delibird.png";
 
 const stantler = new Image();
-stantler.src = "assets/stantler.png";
+stantler.src = "stantler.png";
 
 const santa = new Image();
-santa.src = "assets/santa.png";
+santa.src = "santa.png";
 
 const battleMusic = new Audio("audio/battle.mp3");
 const winMusic = new Audio("audio/win.mp3");
