@@ -2,42 +2,18 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Combate Pokémon Navideño</title>
+  <title>Combate Navideño</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="game">
-  <div id="battlefield">
-    <div class="enemy">
-      <div class="info">
-        <p>Stantler ♂ Lv5</p>
-        <div class="hp-bar">
-          <div id="enemy-hp"></div>
-        </div>
-      </div>
-      <div class="sprite enemy-sprite">🦌</div>
-    </div>
+<canvas id="gameCanvas" width="640" height="360"></canvas>
 
-    <div class="player">
-      <div class="sprite player-sprite">🎁</div>
-      <div class="info">
-        <p>Delibird ♂ Lv5</p>
-        <div class="hp-bar">
-          <div id="player-hp"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="text-box">
-    <p id="battle-text">¡Un Stantler salvaje apareció!</p>
-  </div>
-
-  <div id="controls">
-    <button onclick="attack()">Atacar</button>
-    <button onclick="heal()">Curar</button>
-  </div>
+<div id="menu">
+  <button onclick="playerAttack()">LUCHAR</button>
+  <button onclick="heal()">MOCHILA</button>
+  <button disabled>POKÉMON</button>
+  <button disabled>HUIR</button>
 </div>
 
 <script src="game.js"></script>
