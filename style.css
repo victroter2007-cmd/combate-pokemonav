@@ -1,0 +1,68 @@
+body {
+  background: #88c070;
+  font-family: monospace;
+}
+
+#game {
+  width: 600px;
+  margin: auto;
+  background: #f8f8f8;
+  border: 4px solid black;
+  padding: 10px;
+}
+
+#battlefield {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.sprite {
+  font-size: 64px;
+}
+
+.enemy {
+  text-align: right;
+}
+
+.player {
+  align-self: flex-end;
+}
+
+.info {
+  background: #fff;
+  border: 2px solid black;
+  padding: 5px;
+  width: 200px;
+}
+
+.hp-bar {
+  width: 100%;
+  height: 10px;
+  background: #ccc;
+}
+
+#enemy-hp, #player-hp {
+  height: 100%;
+  background: green;
+  width: 100%;
+}
+
+#text-box {
+  border: 3px solid black;
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  height: 50px;
+}
+
+#controls {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  font-size: 16px;
+}
